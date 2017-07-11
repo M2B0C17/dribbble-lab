@@ -23,6 +23,7 @@ $(document).ready( function(){
 										 	"<i class='fa fa-heart' aria-hidden='true'></i>" +
 										 	element.likes_count + 
 										 "</span></div></li>");
+			
 		});
  	});
 });
