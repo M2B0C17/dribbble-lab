@@ -1,6 +1,11 @@
 # Descripción del proyecto
 ** Proyecto **
 
+Desarrollo de proyecto grupal basado en una réplica de una cuenta en dribbble, haciendo consumo de su API y su documentación para la obtención de sus datos. Se aplicó Bootstrap para la maquetación y html con contenido dinamico en sección de proyectos. Navbar, Header y Footer y perfil de usuario son contenidos estaticos.
+
+La organización está basada a través de Trello.
+https://trello.com/b/AoUhJ1uO/dribbble
+
 PELETA DE COLORES
 Colores
 fondo nav #444
