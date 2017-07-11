@@ -10,7 +10,7 @@ $(document).ready( function(){
 			//console.log(element.pokemon_species.name[0]);
 			console.log(x);
 			console.log(element.images.normal);
-			$("#dribbble").append(	"<li><img src='" + element.images.normal + "'><div>" +
+			$("#dribbble").append(	"<li class='port'><img class='img-responsive' src='" + element.images.normal + "'><div>" +
 										"<span class='view-icon'>" + 
 											"<i class='fa fa-eye' aria-hidden='true'></i>" + 
 											element.views_count + 

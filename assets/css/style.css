@@ -1,6 +1,30 @@
 /* Acá van tus estilos */
 body {
-	/*background-color: black;*/
+	background-color: #f4f4f4;
 	margin: 0 auto;
 	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+/*portafolio*/
+.portafolio {
+}
+.thumbnail {
+    display: inline-block;
+    max-width: 30%;
+    height: auto;
+    padding-bottom: 30px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.port {
+	display: inline;
 }
