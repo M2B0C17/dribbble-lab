@@ -4,3 +4,92 @@ body {
 	margin: 0 auto;
 	padding: 0;
 }
+
+/* Footer */
+.textFooter{
+	color: #a1a1a1;
+}
+
+a, li{
+	text-decoration: none;
+	color: #a1a1a1;
+	list-style: none;
+}
+
+a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+/* 1 */
+.cajitaFooter1{
+	padding: 2%;
+}
+
+.logoFooter{
+	height: 20px;
+}
+
+.textFooter, .titFooter1, .textFooterH4{
+	font-size: 15px;
+}
+
+.linksFooter1{
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+.cajitaFooter1a, .cajitaFooter1b{
+	padding: 2%;
+}
+
+.textFooterH4{
+	color: blue;
+	padding: 0;
+	margin: 0;
+}
+
+.textFooterH4Top{
+	padding-top: 5%;
+}
+
+.logoFooterSize{
+	width: 80px;
+	padding: 0;
+}
+
+.textFooterPUltimoLogo{
+	font-size: 16px;
+	padding-right: 15%;
+}
+
+.iconosRSS{
+	font-size: 27px;
+	padding-left: 2%;
+	padding-bottom: 3%;
+}
+
+.textFooter2{
+	font-size: 12px;
+}
+
+.parteFooterDerech{
+	margin-left: 40%;
+}
+
+.textFooter2Num{
+	padding: 0;
+}
+
+.tituloFootFinal{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.textFooter2Img{
+	padding-left: 50px;
+	font-size: 12px;
+	padding-top: 5%;
+}
+
+/* Fin Footer */
