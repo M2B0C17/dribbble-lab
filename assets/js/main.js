@@ -10,8 +10,3 @@ $(document).ready(function(){
 		$(this).toggleClass("show");
 	});
 });
-$(document).ready(function(){
-	$("#shotsi").click(function(){
-		$(this).toggleClass("show");
-	});
-});
