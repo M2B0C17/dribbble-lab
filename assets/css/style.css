@@ -6,6 +6,10 @@ body {
 	list-style: none;
 }
 
+
+.botonera:hover{
+	color: white;
+}
 .navbar{
 	color: white;
 	width: 100%;
@@ -14,18 +18,22 @@ body {
 	margin: 0 auto;
 	padding: 0;
 }
+.navbar:hover .botonera{
+	color: white;
+}
 .dropdown-toggle{
 	color: white;
 }
 .logo{
 	color: white;
-	padding: 5px;
-	height: 10%;
+    padding: 16px;
+    width: 133px;
+    margin: -1px;
 }
 
-.seguir{
+.pin{
 	color: white;
-	margin-top: 10px;
+	margin-top: 20px;
 
 }
 
@@ -50,8 +58,31 @@ body {
 }
 
 .menu a:hover {
-	color: #f20256;
+	color: #696969;
 }
+.open-hide{
+	
+	width: 35px;
+	height: 35px;
+	display: block;
+	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/6001/menu.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 25px;
+	text-indent: -9999em;
+}
+
+.open-hide:hover{
+	cursor: pointer;
+}
+.show{
+	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/6001/clave.svg");
+	background-size: 15px;
+}
+.show + .menu{
+	height: 100px;
+}
+/*fin hamburguesa*/
 #inputs{
     position: absolute;
     top: 10px;
