@@ -1,4 +1,4 @@
-# Descripción del proyecto
+# Proyecto: Dribbble
 ** Proyecto **
 
 Desarrollo de proyecto grupal basado en una réplica de una cuenta en dribbble, haciendo consumo de su API y su documentación para la obtención de sus datos. Se aplicó Bootstrap para la maquetación y html con contenido dinamico en sección de proyectos. Navbar, Header y Footer y perfil de usuario son contenidos estaticos.
