@@ -10,7 +10,17 @@ $(document).ready( function(){
 			//console.log(element.pokemon_species.name[0]);
 			console.log(x);
 			console.log(element.images.normal);
-			$("#dribbble").append("<li><img src='" + element.images.normal + "'></li>")
+			var  titulo = element.description;
+			$("#dribbble").append("<li><img src='" + element.images.normal + "'><div class='overlay'<div class='text'>" +titulo+"</div></div></li>")
 		});
- });
+
+		function imagen(hover){
+			var  titulo = hover.title;
+			var imagen = "https://cdn.dribbble.com/users/1972/screenshots/2291937/grav_1x.png" + titulo + ".jpg";
+			$(".li").append("<li><img src='" + element.images.normal + "'></li>")
+
+		}
+		
+	});
 });
+
