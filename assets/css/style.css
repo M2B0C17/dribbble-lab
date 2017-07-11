@@ -7,6 +7,79 @@ body {
 ul, li {
 	list-style: none;
 }
+.botonera:hover{
+	color: white;
+}
+.navbar{
+	color: white;
+	height: 60px;
+	background: rgba(47, 47, 47,0.98);
+	margin: 0 auto;
+	padding: 0;
+}
+.navbar:hover .botonera{
+	color: white;
+}
+.dropdown-toggle{
+	color: white;
+}
+.logo{
+	color: white;
+    padding: 16px;
+    width: 133px;
+    margin: -1px;
+}
+.pin{
+	color: white;
+	margin-top: 20px;
+}
+/*desplegable*/
+.menu{
+	margin-top: 1em;
+	background-color: #fff;
+	width: 10em;
+	overflow: hidden;
+	height: 0;
+	transition: all 2.0s ease;
+}
+.menu li{
+	list-style: none;
+	padding: 0.6em 1em;
+}
+.menu a{
+	text-decoration: none;
+	color: #333;
+}
+.menu a:hover {
+	color: #696969;
+}
+.open-hide{
+	width: 35px;
+	height: 35px;
+	display: block;
+	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/6001/menu.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent: -9999em;
+}
+
+.open-hide:hover{
+	cursor: pointer;
+}
+.show{
+	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/6001/clave.svg");
+	background-size: 20px;
+}
+.show + .menu{
+	height: 500px;
+}
+/*fin hamburguesa*/
+#inputs{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    margin: 0;
+}
 /*portafolio*/
 .portafolio {
 }
@@ -171,11 +244,9 @@ a:hover{
 	padding-left: 2%;
 	padding-bottom: 3%;
 }
-
 .textFooter2{
 	font-size: 12px;
 }
-
 .parteFooterDerech{
 	margin-left: 40%;
 }
@@ -183,12 +254,10 @@ a:hover{
 .textFooter2Num{
 	padding: 0;
 }
-
 .tituloFootFinal{
 	font-size: 15px;
 	font-weight: bold;
 }
-
 .textFooter2Img{
 	padding-left: 50px;
 	font-size: 12px;
