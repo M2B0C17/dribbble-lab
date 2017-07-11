@@ -14,11 +14,22 @@ body {
 	margin: 0 auto;
 	padding: 0;
 }
-
+.dropdown-toggle{
+	color: white;
+}
 .logo{
+	color: white;
 	padding: 5px;
 	height: 10%;
 }
+
+.seguir{
+	color: white;
+	margin-top: 10px;
+
+}
+
+/*desplegable*/
 .menu{
 	margin-top: 1em;
 	background-color: #fff;
