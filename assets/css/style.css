@@ -11,12 +11,16 @@ ul, li {
 .portafolio {
 }
 .thumbnail {
-    display: inline-block;
+}
+.port {
+	display: inline-block;
     max-width: 30%;
     height: auto;
-    padding-bottom: 30px;
-    margin-right: 5px;
-    margin-bottom: 10px;
+    padding-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    margin-left: 3%;
+    background-color: red;
     line-height: 1.42857143;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -24,9 +28,6 @@ ul, li {
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-}
-.port {
-	display: inline;
 }
 /*PERFIL USUARIO*/
 .titulo{
@@ -117,7 +118,7 @@ ul, li {
     padding: 25px;
 }
 .container{
-    background-color: grey;
+    /*background-color: grey;*/
 }
 /* Footer Maca */
 .textFooter{

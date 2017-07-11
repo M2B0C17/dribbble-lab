@@ -5,14 +5,16 @@
 
 }
 @media only screen and (min-width: 481px) and (max-width: 767px) {
-	.thumbnail {
-    max-width: 50%;
+	.port {
+    max-width: 45%;
+    margin-left: 5%;
 	}
 
 }
 @media only screen and (min-width: 1px) and (max-width: 480px) {
-	.thumbnail {
-    max-width: 100%;
+	.port {
+    max-width: 90%;
+    margin-left: 10%;
 	}
 }
 
