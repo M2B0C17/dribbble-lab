@@ -3,7 +3,7 @@ body {
 	background-color: #f4f4f4;
 	margin: 0 auto;
 	padding: 0;
-  font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 ul, li {
 	list-style: none;
@@ -25,60 +25,60 @@ ul, li {
 	color: white;
 }
 .logo{
-	  color: white;
-    padding: 16px;
-    width: 133px;
-    margin: -1px;
+	color: white;
+	padding: 16px;
+	width: 133px;
+	margin: -1px;
 }
 .pin{
-    color: white;
-    margin-top: 20px;
+	color: white;
+	margin-top: 20px;
 }
 /*desplegable*/
 .menu{
-    margin-top: 1em;
-    background-color: #fff;
-    width: 10em;
-    overflow: hidden;
-    height: 0;
-    transition: all 2.0s ease;
+	margin-top: 1em;
+	background-color: #fff;
+	width: 10em;
+	overflow: hidden;
+	height: 0;
+	transition: all 2.0s ease;
 }
 .menu li{
-    list-style: none;
-    padding: 0.6em 1em;
+	list-style: none;
+	padding: 0.6em 1em;
 }
 .menu a{
-    text-decoration: none;
-    color: #333;
+	text-decoration: none;
+	color: #333;
 }
 .menu a:hover {
-    color: #696969;
+	color: #696969;
 }
 .open-hide{
-    width: 35px;
-    height: 35px;
-    display: block;
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/6001/menu.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    text-indent: -9999em;
+	width: 35px;
+	height: 35px;
+	display: block;
+	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/6001/menu.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent: -9999em;
 }
 .open-hide:hover{
-    cursor: pointer;
+	cursor: pointer;
 }
 .show{
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/6001/clave.svg");
-    background-size: 20px;
+	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/6001/clave.svg");
+	background-size: 20px;
 }
 .show + .menu{
-    height: 500px;
+	height: 500px;
 }
 /*fin hamburguesa*/
 #inputs{
-    position: absolute;
-    top: 10px;
-    right: 30px;
-    margin: 0;
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	margin: 0;
 }
 .abajo{
     width: 100%;
@@ -104,73 +104,72 @@ ul, li {
 }
 .port {
 	display: inline-block;
-    max-width: 30%;
-    height: auto;
-    padding-bottom: 5%;
-    margin-top: 2%;
-    margin-bottom: 8%;
-    margin-left: 3%;
-    background-color: red;
-    line-height: 1.42857143;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    -webkit-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+	max-width: 30%;
+	height: auto;
+	padding-bottom: 5%;
+	margin-top: 2%;
+	margin-bottom: 8%;
+	margin-left: 3%;
+	background-color: red;
+	line-height: 1.42857143;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
 }
 .view-icon, .coment-icon, .like-icon{
-    margin-left: 20px;
+	margin-left: 20px;
 }
 .icon-port{
-    margin-top: 5px;
-    margin-left: 60px;
+	margin-top: 5px;
+	margin-left: 60px;
 }
 /*PERFIL USUARIO*/
 .titulo{
-    color:#444;
-    font-weight: bold;
+	color:#444;
+	font-weight: bold;
 }
 .profesion{
-    color:#444;
-    font-size: 15px;
+	color:#444;
+	font-size: 15px;
 }
 .location{
-    color:#999;
-    font-size: 15px;
-    font-weight: 400;
+	color:#999;
+	font-size: 15px;
+	font-weight: 400;
 }
 #btn-hire{
-    background-color: #31BC27;
-    border:none;
-    color:white;
-    padding: 8px;
-    font-weight: bold;
-    margin-left: 33px;
+	background-color: #31BC27;
+	border:none;
+	padding: 8px;
+	font-weight: bold;
+	margin-left: 35%;
 }
 .hire-me{
-    color: #fff;
+	color: #fff;
 }
 .icon-hire{
-    font-size: 20px !important;
-    padding-right: 5px;
+	font-size: 20px !important;
+	padding-right: 5px;
 }
 .icon-setting{
-    font-size:20px !important;
-    color: #999;
+	font-size:20px !important;
+	color: #999;
 }
 #btn-follow{
-    color:#444;
-    padding: 8px;
+	color:#444;
+	padding: 8px;
 }
 #dropdown-perfil{
-    padding: 8px;
+	padding: 8px;
 }
 .skills h5,
 .elsewhere-redes h5{
-    color: #999;
-    font-size: 17px;
-    font-weight: bold;
+	color: #999;
+	font-size: 17px;
+	font-weight: bold;
 }
 .skills-ilu,
 .skills-icon,
@@ -181,47 +180,44 @@ ul, li {
 .skills-adv,
 .skills-edit,
 .skills-ui{
-    text-decoration: none !important;
-    display: inline-block;
-    margin: 0 4px 8px 0;
-    padding: 6px 8px;
-    border: 1px solid #ddd;
-    color: #444;
-    border-radius: 4px;
+	text-decoration: none !important;
+	display: inline-block;
+	margin: 0 4px 8px 0;
+	padding: 6px 8px;
+	border: 1px solid #ddd;
+	color: #444;
+	border-radius: 4px;
 }
 .elsewhere-redes h5{
-    color: #999;
-    font-size: 17px;
-    font-weight: bold;
+	color: #999;
+	font-size: 17px;
+	font-weight: bold;
 }
 .icon-red{
-    color: #999;
-    font-size: 25px !important;
-    padding-right: 10px;
+	color: #999;
+	font-size: 25px !important;
+	padding-right: 10px;
 }
 .web,
 .twitter,
 .instagram,
 .behance{
-    text-decoration: none !important;
-    display: inline-block;
-    margin: 0 4px 8px 0;
-    color: #444;
-    font-size: 15px !important;
-    padding-top: 3px !important;
+	text-decoration: none !important;
+	display: inline-block;
+	margin: 0 4px 8px 0;
+	color: #444;
+	font-size: 15px !important;
+	padding-top: 3px !important;
 }
 
 #perfil-usuario #perfil{
-    background-color: white;
-    padding: 25px;
+	background-color: white;
+	padding: 25px;
 }
 .container{
-    /*background-color: grey;*/
+	/*background-color: grey;*/
 }
 /* Footer Maca */
-footer{
-	background-color: white;
-}
 .textFooter{
 	color: #a1a1a1;
 }
@@ -236,11 +232,11 @@ a:hover{
 }
 /* 1 */
 footer{
-    background-color: #fff;
+	background-color: #fff;
 }
 .cajitaFooter1{
 	padding: 2%;
-	background-color: white;
+    background-color: #fff;
 }
 .logoFooter{
 	height: 20px;
@@ -264,7 +260,7 @@ footer{
 	padding-top: 5%;
 }
 .logoFooterSize{
-	width: 77px;
+	width: 80px;
 	padding: 0;
 }
 .cajaFlowFooter{
@@ -297,7 +293,36 @@ footer{
 	font-size: 12px;
 	padding-top: 5%;
 }
-
+/* Fin Footer */
+/*Kath hover*/
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.overlay {
+	position: relative;
+	top:0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #008CBA;
+}
+.port:hover .overlay {
+	opacity: 1;
+}
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	padding: 10px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
 /* Footer Responsive */
 .logoFooterRightResponsive{
 	width: 60px;
