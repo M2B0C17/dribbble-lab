@@ -284,7 +284,7 @@ footer{
 	position: relative;
 	top:0;
 	left: 0;
-	height: 100px;
+	height: 100%;
 	width: 100%;
 	opacity: 0;
 	transition: .5s ease;
