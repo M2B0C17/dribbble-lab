@@ -5,7 +5,6 @@ $(document).ready( function(){
   $("#open-hide").click(function(){
 		$(this).toggleClass("show");
 	});
-  
  	$.get('https://api.dribbble.com/v1/users/jonesandcompany/shots?access_token=c86586c1235b2e5e9aef166131195f67e2f792cbe5cf7eaee7ea66923fc1a8ce', function(x) {
 		//console.log(x);
 		// array 721
@@ -31,16 +30,12 @@ $(document).ready( function(){
 		});
  	});
 	//Se enlazan url a  botón Hire Me
-
  	$(".hire-me").attr("href","https://dribbble.com/pro?recipient_id=jonesandcompany");
-
-
- 	 	//Se enlazan url a  iconos de RRSS  de perfil
+ 	//Se enlazan url a  iconos de RRSS  de perfil
  	$(".web").attr("href","https://dylanhowejones.myportfolio.com/");
  	$(".twitter").attr("href","https://twitter.com/iamtheoryone");
  	$(".instagram").attr("href","https://www.instagram.com/jonesandco_illustration/");
  	$(".behance").attr("href","https://www.behance.net/dylanhowejones");
-
  	//Se enlazan url a  iconos de SKILL de perfil
  	$(".skills-ilu").attr("href","https://dribbble.com/designers?skills=illustration");
  	$(".skills-icon").attr("href","https://dribbble.com/designers?skills=icons");
