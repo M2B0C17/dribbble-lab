@@ -92,11 +92,9 @@ ul, li {
 .form-sub{
     background: #ea4c89;
     padding: 10px 30px;
-    color: white;
-    
+    color: white;   
 }
 /*fin navbar*/
-
 /*portafolio*/
 .portafolio {
 }
@@ -209,7 +207,6 @@ ul, li {
 	font-size: 15px !important;
 	padding-top: 3px !important;
 }
-
 #perfil-usuario #perfil{
 	background-color: white;
 	padding: 25px;
@@ -332,7 +329,6 @@ footer{
 .textResponsiveCostadoDerec{
 	padding-top: 5%;
 }
-
 .cajitaFooter1bRespons{
 	padding: 0;
 }
