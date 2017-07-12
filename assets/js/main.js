@@ -11,7 +11,7 @@ $(document).ready( function(){
 			console.log(x);
 			console.log(element.images.normal);
 			$("#dribbble").append(	"<li class='port'><a href='" + element.html_url + "'>" + 
-										"<img class='img-responsive' src='" + element.images.normal + "'><div class='icon-port'>" +
+										"<img class='img-responsive' src='" + element.images.normal + "'><div class='icon-port hidden-xs hidden-sm'>" +
 											"<span class='view-icon'>" + 
 												"<i class='fa fa-eye' aria-hidden='true'></i>" + " " +
 												element.views_count + 
@@ -28,4 +28,27 @@ $(document).ready( function(){
 		});
 
  	});
+
+	//Se enlazan url a  botón Hire Me
+
+ 	$(".hire-me").attr("href","https://dribbble.com/pro?recipient_id=jonesandcompany");
+
+
+ 	 	//Se enlazan url a  iconos de RRSS  de perfil
+ 	$(".web").attr("href","https://dylanhowejones.myportfolio.com/");
+ 	$(".twitter").attr("href","https://twitter.com/iamtheoryone");
+ 	$(".instagram").attr("href","https://www.instagram.com/jonesandco_illustration/");
+ 	$(".behance").attr("href","https://www.behance.net/dylanhowejones");
+
+ 	//Se enlazan url a  iconos de SKILL de perfil
+ 	$(".skills-ilu").attr("href","https://dribbble.com/designers?skills=illustration");
+ 	$(".skills-icon").attr("href","https://dribbble.com/designers?skills=icons");
+ 	$(".skills-charac").attr("href","https://dribbble.com/designers?skills=characters");
+ 	$(".skills-chad").attr("href","https://dribbble.com/designers?skills=characterdesign");
+ 	$(".skills-vector").attr("href","https://dribbble.com/designers?skills=vector");
+ 	$(".skills-camping").attr("href","https://dribbble.com/designers?skills=campaign");
+ 	$(".skills-adv").attr("href","https://dribbble.com/designers?skills=advertising");
+ 	$(".skills-edit").attr("href","https://dribbble.com/designers?skills=editorial");
+ 	$(".skills-ui").attr("href","https://dribbble.com/designers?skills=ui");
+
 });
