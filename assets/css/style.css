@@ -126,9 +126,10 @@ ul, li {
 #btn-hire{
     background-color: #31BC27;
     border:none;
+    color:white;
     padding: 8px;
     font-weight: bold;
-    margin-left: 35%;
+    margin-left: 33px;
 }
 .hire-me{
     color: #fff;
@@ -201,6 +202,9 @@ ul, li {
     /*background-color: grey;*/
 }
 /* Footer Maca */
+footer{
+	background-color: white;
+}
 .textFooter{
 	color: #a1a1a1;
 }
@@ -219,6 +223,7 @@ footer{
 }
 .cajitaFooter1{
 	padding: 2%;
+	background-color: white;
 }
 .logoFooter{
 	height: 20px;
@@ -234,7 +239,7 @@ footer{
 	padding: 2%;
 }
 .textFooterH4{
-	color: blue;
+	color: lightblue;
 	padding: 0;
 	margin: 0;
 }
@@ -242,8 +247,11 @@ footer{
 	padding-top: 5%;
 }
 .logoFooterSize{
-	width: 80px;
+	width: 77px;
 	padding: 0;
+}
+.cajaFlowFooter{
+	padding-top: 27px;
 }
 .textFooterPUltimoLogo{
 	font-size: 16px;
@@ -271,5 +279,63 @@ footer{
 	padding-left: 50px;
 	font-size: 12px;
 	padding-top: 5%;
+}
+
+/* Footer Responsive */
+.logoFooterRightResponsive{
+	width: 60px;
+	padding-top: 5%;
+	padding-right: 0;
+}
+.textResponsiveCostadoDerec{
+	padding-top: 5%;
+}
+
+.cajitaFooter1bRespons{
+	padding: 0;
+}
+.linksFooter1Respon{
+	font-size: 12px;
+	padding-top: 10px;
+	padding-left: 0;
+}
+.textFooterH4Top{
+	padding-top: 5%;
+}
+.cajaResponlogoflow{
+	padding-left: 5%;
+}
+.logoFooterSizeResponsive{
+	width: 45%;
+	margin-top: 8%;
+}
+.logoFlow{
+	width: 100%;
+    border: 1px solid #ccc;
+    padding: 8%;
+}
+.textFooterPUltimoLogoRespon{
+	font-size: 15px;
+	margin-top: 29%;
+}
+.cajaPelot{
+	padding-left: 10%;
+}
+.cajaFootResPelot{
+	width: 79%;
+	padding-bottom: 15%;
+  padding-top: 1%;
+}
+.cajaResponlogoPelot{
+	padding: 0;
+}
+.iconosRSSrespon{
+	font-size: 27px;
+	padding-left: 3%;
+	padding-bottom: 3%;
+}
+.textFooter2respon{
+	font-size: 15px;
+	padding-bottom: 5%;
 }
 /* Fin Footer */
