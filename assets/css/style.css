@@ -273,3 +273,36 @@ footer{
 	padding-top: 5%;
 }
 /* Fin Footer */
+/*Kath hover*/
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+	position: absolute;
+	top:0;
+	left: 0;
+	height: 100px;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #008CBA;
+}
+
+li:hover .overlay {
+	opacity: 1;
+}
+
+.text {
+	color: white;
+	font-size: 20px;
+	position: relative;
+	padding: 50px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+

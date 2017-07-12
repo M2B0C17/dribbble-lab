@@ -13,8 +13,9 @@ $(document).ready( function(){
 			//console.log(element.pokemon_species.name[0]);
 			console.log(x);
 			console.log(element.images.normal);
+			var  titulo = element.description;
 			$("#dribbble").append(	"<li class='port'><a href='" + element.html_url + "'>" + 
-				"<img class='img-responsive' src='" + element.images.normal + "'><div class='icon-port hidden-xs hidden-sm'>" +
+				"<img class='img-responsive' src='" + element.images.normal + "'><div class='overlay'><div class='text'>" + element.title[0] + "</div></div><div class='icon-port hidden-xs hidden-sm'>" +
 				"<span class='view-icon'>" + 
 				"<i class='fa fa-eye' aria-hidden='true'></i>" + " " +
 				element.views_count + 
@@ -27,6 +28,11 @@ $(document).ready( function(){
 				"<i class='fa fa-heart' aria-hidden='true'></i>" + " " +
 				element.likes_count + 
 				"</span></div></li>");
+			$(".port").hover(function(){
+                //s$(".port").append("<div class='overlay'><div class='text'>" +element.title+ titulo + "</div></div>");
+                //$(".port").append("<div class='overlay'><div class='text'>" + element.title[0] + "</div></div>")
+                
+            })
 		});
 	});
 	//Se enlazan url a  botón Hire Me
