@@ -80,6 +80,23 @@ ul, li {
     right: 30px;
     margin: 0;
 }
+.abajo{
+    width: 100%;
+    background-color: #252525;
+    padding: 50px;
+    margin-top: 0;
+}
+.abajo h2{
+    color: white;
+}
+.form-sub{
+    background: #ea4c89;
+    padding: 10px 30px;
+    color: white;
+    
+}
+/*fin navbar*/
+
 /*portafolio*/
 .portafolio {
 }
