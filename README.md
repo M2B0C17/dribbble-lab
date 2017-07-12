@@ -6,6 +6,8 @@ Desarrollo de proyecto grupal basado en una réplica de una cuenta en dribbble, 
 La organización está basada a través de Trello.
 https://trello.com/b/AoUhJ1uO/dribbble
 
+Usuario: https://dribbble.com/jonesandcompany
+
 PELETA DE COLORES
 Colores
 fondo nav #444
