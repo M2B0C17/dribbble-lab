@@ -52,7 +52,4 @@ $(document).ready( function(){
  	$(".skills-adv").attr("href","https://dribbble.com/designers?skills=advertising");
  	$(".skills-edit").attr("href","https://dribbble.com/designers?skills=editorial");
  	$(".skills-ui").attr("href","https://dribbble.com/designers?skills=ui");
- });
-
-/*hover kath*/
-
+});
